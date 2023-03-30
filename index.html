@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Energías Renovables - TP1 - FrontEnd</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;600&family=Rubik:ital,wght@1,500&family=Russo+One&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body id="body">
+  <div id="div-total">
+    <!--Encabezado con logo, título y menú-->
+    <header id="id-header">
+      <div id="contenedor-header" class="class-cont-header">
+        <img src="./img/logo.png" alt="Logo Eco Power" id="logo-header" class="header-element" />
+        <nav id="menu-header" class="header-element">
+          <ul id="menu">
+            <li class="menu-item">
+              <a id="link-menu" href="#id-header">INICIO</a>
+            </li>
+            <li class="menu-item">
+              <a id="link-menu" href="#texto-inicio">ENERGIAS</a>
+            </li>
+            <li class="menu-item">
+              <a id="link-menu" href="#footer">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Cuerpo con info principal-->
+    <h1 id="titulo-principal">ENERGIAS RENOVABLES</h1>
+    <main>
+      <div id="contenedor-img-principal">
+        <img id="img-inicio" src="https://www.seslatam.com/wp-content/uploads/foto-blog-rensus-01-1200-0600.jpg"
+          alt="Imagen de energías renovables" />
+      </div>
+      <div id="contenedor-texto-inicio">
+        <p id="texto-inicio">
+          Las energías renovables son fuentes de energía que se obtienen de
+          recursos naturales renovables, como el sol, el viento, el agua y la
+          biomasa. A diferencia de las fuentes de energía no renovables, como
+          los combustibles fósiles, las energías renovables son sostenibles y
+          no se agotan con el tiempo.
+        </p>
+      </div>
+      <div id="contenedor-form">
+        <form id="id-form" action="">
+
+          <div id="form-izquierda">
+            <label for="form-nombre" id="label-nombre">
+              <h3 class="form-titulo">Nombre</h3>
+              <input id="form-nombre" type="text" placeholder="Ingresa tu nombre" />
+            </label>
+
+            <div id="contenedor-form-checkbox-izquierda" class="contenedor-checkbox">
+              <label for="form-checkbox-1">
+                <h3 class="form-titulo">Energía Solar</h3>
+                <input type="checkbox" id="form-checkbox-1" name="intereses" />
+              </label>
+
+              <label for="form-checkbox-2">
+                <h3 class="form-titulo">Energía Eólica</h3>
+                <input type="checkbox" id="form-checkbox-2" name="intereses" />
+              </label>
+
+              <label for="form-checkbox-3">
+                <h3 class="form-titulo">Biomasa</h3>
+                <input type="checkbox" id="form-checkbox-3" name="intereses" />
+              </label>
+
+            </div>
+          </div>
+
+          <div id="form-derecha">
+            <label for="form-email" id="label-email">
+              <h3 class="form-titulo">Email</h3>
+              <input id="form-email" type="email" placeholder="Ingresa tu correo" />
+            </label>
+
+            <div id="contenedor-form-checkbox-derecha" class="contenedor-checkbox">
+              <label for="form-checkbox-4">
+                <h3 class="form-titulo">Biogas</h3>
+                <input type="checkbox" id="form-checkbox-4" name="intereses" />
+              </label>
+
+              <label for="form-checkbox-5">
+                <h3 class="form-titulo">Biocombustibles</h3>
+                <input type="checkbox" id="form-checkbox-5" name="intereses" />
+              </label>
+
+              <label for="form-checkbox-6">
+                <h3 class="form-titulo">Geotermia</h3>
+                <input type="checkbox" id="form-checkbox-6" name="intereses" />
+              </label>
+
+              <div id="contenedor-form-botones">
+                <button type="reset" id="boton-limpiar" class="boton">
+                  Limpiar
+                </button>
+                <button type="submit" id="boton-enviar" class="boton">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+    </main>
+    <footer id="footer">
+      <h3 id="nuestras-redes">Nuestras Redes</h3>
+      <ul id="lista-redes">
+        <li class="li-footer"><a href="http://www.facebook.com" target="_blank"><img src="img/iconos/icon-facebook.png" alt="Icono Facebook" class="img-footer"></a></li>
+        <li class="li-footer"><a href="http://www.instagram.com" target="_blank"><img src="img/iconos/icon-instagram.png" alt="Icono Instagram" class="img-footer"></a></li>
+        <li class="li-footer"><a href="http://www.twitter.com" target="_blank"><img src="img/iconos/icon-twitter.png" alt="Icono Twitter" class="img-footer"></a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
